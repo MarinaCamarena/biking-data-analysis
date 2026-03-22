@@ -1,0 +1,19 @@
+1. PARSE THROUGH CLIMATE DATA AND SEPARATE SNOW, RAINY & NORMAL MOMENTS OF EACH DAY
+
+2. PARSE THROUGH BIKING MOMENTS AND PRESENT BIKE POPULATION AT EACH MOMENT OF THE DAY
+
+3. RELATE BIKE POPULATION TO CLIMATE
+
+4. PINPOINT PATHWAYS WITH A LARGE CHANGE IN POPULATION RELATED TO CLIMATE CHANGES
+
+5. BUILD THE GPS TRACKER + NORMAL ROUTE SUGGESTION
+
+	import requests
+	from haversine import Unit, haversine
+	see the link https://pybit.es/articles/build-a-route-planner-for-maps-using-python/
+
+6. BUILD THE SELECTION TOOL FOR WHAT CLIMATE USER IS UNDER
+	For this I think we should just use statistical formulas
+
+7. PUT CLIMATE CONSTRAINT INTO ROUTE SUGGESRION ALGORITHM
+	I guess a message popping up that warns the user against that path should suffice for now
